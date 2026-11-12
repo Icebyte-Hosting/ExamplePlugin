@@ -1,0 +1,31 @@
+name: ExamplePlugin
+version: '${version}'
+
+main: com.example.exampleplugin.ExamplePlugin
+api-version: '26.3'
+load: POSTWORLD
+
+authors: [ Example LLC. ]
+
+permissions:
+  example.trash:
+    description: "Opens a trash can menu to throw stuff away"
+    default: true
+  example.fix:
+    description: "Fixes the item in your main hand"
+    default: true
+  example.openinv:
+    description: "Opens the inventory of player and lets you to be able to edit the player's inventory"
+    default: true
+  example.enderchest:
+    description: "Opens the ender chest of the player"
+    default: true
+  example.tpa:
+    description: "Sends a teleport request to the player"
+    default: true
+  example.god:
+    description: "Sets the player into a god mode where they can't take any damage or lose hunger"
+    default: true
+  example.gamemode:
+    description: "Sets the player to the gamemode specified."
+    default: true

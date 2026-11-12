@@ -1,0 +1,34 @@
+# General messages
+playerInvalidMessage: "Player is not valid or has disconnected."
+playerOnlyCommandMessage: "You must be a player to use this command!"
+playerArgumentRequiredMessage: "You must be a player to use this command without a player argument!"
+menuOpenFailureMessage: "An error occurred while trying to open the menu!"
+
+# Fix Command messages
+itemAlreadyFullHealthMessage: "Item is already at full health!"
+itemSuccessfullyRepairedMessage: "Successfully repaired item!"
+itemNotDamageableMessage: "Item in main hand is not damageable!"
+itemRepairFailedMessage: "An error occurred while trying to fix your item!"
+
+# TPA messages
+tpaToSelfErrorMessage: "You can't teleport to yourself!"
+tpaFailedRequestMessage: "An error occurred while making the teleport request!"
+tpaSentRequestMessage: "Successfully sent teleport request to {targetPlayer}"
+tpaReceivedRequestMessage: "{sourcePlayer} has requested to teleport to you, would you like to accept?"
+tpaCountdownMessage: "Teleporting you to {targetPlayer} in {timeRemaining}"
+tpaTargetAcceptedMessage: "{targetPlayer} accepted your teleport request"
+tpaTargetDeclinedMessage: "{targetPlayer} declined your teleport request"
+tpaAcceptMessage: "{sourcePlayer} will be teleported to you shortly"
+tpaDeclineMessage: "{sourcePlayer}'s request has been declined"
+
+# God mode messages
+godModeSetFailedMessage: "An error occurred while trying to set god mode!"
+godModeEnabledMessage: "You are now in god mode."
+godModeDisabledMessage: "You are no longer in god mode."
+targetEnterGodModeMessage: "{target} is now in god mode."
+targetLeaveGodModeMessage: "{target} is no longer in god mode."
+
+# Game mode messages
+setPersonalModeMessage: "Successfully updated game mode to {gameMode}!"
+gameModeUpdatedExternally: "{sourcePlayer} updated your game mode to {gameMode}."
+updatedTargetGameMode: "Successfully updated {targetPlayer}'s game mode to {gameMode}"
